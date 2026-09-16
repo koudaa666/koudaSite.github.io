@@ -1,0 +1,25 @@
+body {
+    place-items: center center;
+    background-color: #c7c7c7;
+}
+
+.special-card-wrapper {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        margin: 24px;
+    object-fit: cover;
+    padding: 12px;
+
+    .special-card {
+        background-color: #696969;display: block;
+        width: 240px;
+        height: 380px;
+
+    }
+}
+
+.tilt-card::part(container),
+.content-card {
+    border-radius: 24px;
+}

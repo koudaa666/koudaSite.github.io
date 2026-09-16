@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- https://hover-tilt.simey.me/examples/web-component/ -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/hover-tilt/dist/hover-tilt.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <hover-tilt class="tilt-card special-card-wrapper" shadow tilt-factor="1.5" scale-factor="1" glare-intensity="1">
+        <img class="content-card special-card" src="./images/card/scence.jpg" alt="">
+        <!-- <div class="content-card special-card">
+            <h3>Basic Example</h3>
+            <p>Hover over this card to see the default tilt effect</p>
+        </div> -->
+    </hover-tilt>
+    <hover-tilt class="tilt-card special-card-wrapper" shadow scale-factor="1" glare-intensity="2.5"
+    glare-mask="url(./images/mask/cosmos.png)" glare-mask-mode="luminance"
+    >
+        <img class="content-card special-card" src="./images/card/scence.jpg" alt="">
+        <!-- <div class="content-card special-card">
+            <h3>Basic Example</h3>
+            <p>Hover over this card to see the default tilt effect</p>
+        </div> -->
+    </hover-tilt>
+</body>
+
+</html>
